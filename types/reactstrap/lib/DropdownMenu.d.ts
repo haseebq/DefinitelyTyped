@@ -1,7 +1,7 @@
 interface Props {
   tag?: React.ReactType;
   right?: boolean;
-  className?: boolean;
+  className?: string;
 }
 
 declare var DropdownMenu: React.StatelessComponent<Props>;
